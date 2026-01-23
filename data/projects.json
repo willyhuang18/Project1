@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Amazon Simulation",
+        "description": "Built an interactive UI with TailwindCSS and Next.js, replicating core Amazon features like product search and Stripe payment processing.",
+        "image": "images/6.png",
+        "link": "https://www.google.com/"
+    },
+    {
+        "title": "Ignite",
+        "description": "Created to help couples connect and communicate, built using the MERN stack (MongoDB, Express, React, Node).",
+        "image": "images/1.png",
+        "link": "https://www.google.com/"
+    },
+    {
+        "title": "Perfect-Cup",
+        "description": "An informative platform for coffee lovers to create recipes while keeping informed about ingredient transparency.",
+        "image": "images/2.png",
+        "link": "https://www.google.com/"
+    },
+    {
+        "title": "Instagram Simulation",
+        "description": "A full-featured social media UI with photo uploads, likes, and comments using Next.js, Recoil, and Firebase.",
+        "image": "images/3.png",
+        "link": "https://www.google.com/"
+    },
+    {
+        "title": "Todo-List",
+        "description": "A clean and functional application to keep track of user list items with persistent storage using MongoDB.",
+        "image": "images/4.png",
+        "link": "https://www.google.com/"
+    }
+]

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pangta Huang">
+    <meta name="description" content="An interactive Cat World page featuring fun facts and a petting simulator.">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Cat World - Fun Page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar - same as home page -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" style="border-bottom: 2px solid #ddd;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="font-weight: bold; color: #0d6efd;">Pangta's Portfolio</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="project.html">Projects</a>
+                <a class="nav-link active" href="cats.html">Cats</a>
+                <a class="nav-link" href="coffee.html">Coffee</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="cat-hero text-center" style="background-color: #ffe4e1;">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Cat World</h1>
+            <p>Welcome to the digital home of cats!</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Virtual Petting Zoo: Uses cat.js to track local state (Purr Score) -->
+                <div class="p-4 border bg-white text-center" style="border-radius: 10px;">
+
+                    <span style="font-size: 80px;">🐱</span>
+                    <h3>Virtual Petting Zoo</h3>
+                    <p class="text-muted">Pet the cat to make it happy!</p>
+                    <button id="pet-btn" class="btn btn-danger rounded-pill px-4">
+                        Pet the cat!
+                    </button>
+                    <div class="mt-4">
+                        <h5>Purr Score: <span id="purr-score" style="color: blue;">0</span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <!-- Cat facts section: Randomly selects from local array defined in cat.js -->
+                <div class="card h-100 p-4">
+                    <h3><i class="bi bi-lightbulb"></i> Did You Know?</h3>
+
+                    <div class="mt-3">
+                        <p id="cat-fact" style="font-style: italic; color: #555;">
+                            "Click the button to show a new cat fact."
+                        </p>
+                    </div>
+                    <button id="fact-btn" class="btn btn-outline-dark mt-auto">
+                        New Fact
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="index.html" class="btn btn-secondary">Return to Home</a>
+        </div>
+    </main>
+
+    <footer class="bg-light py-4 text-center border-top">
+        <div class="container">
+            <p class="text-muted">&copy; 2024 Pangta Huang</p>
+        </div>
+    </footer>
+
+    <script type="module" src="js/cat.js"></script>
+</body>
+
+</html>

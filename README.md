@@ -2,7 +2,8 @@
 
 This project is a personal portfolio website built as part of the CS5610 Web Development course at Northeastern University. It showcases my technical skills, academic background, and personal interests through a modular, high-performance web interface.
 
-[📄 View Design Document (PDF)](design.pdf)
+[📄 View Design Document (PDF)](https://github.com/user-attachments/files/24842650/design.pdf)
+
 
 ---
 
@@ -14,7 +15,7 @@ This project is a personal portfolio website built as part of the CS5610 Web Dev
 - **Code Quality**: Formatted with Prettier and validated against strict ESLint rules (ES2021).
 
 ## 📸 Preview
-![Portfolio Screenshot](images/screenshot.png)
+<img width="1635" height="992" alt="image" src="https://github.com/user-attachments/assets/df03f619-6990-4b19-a694-384e2557ec42" />
 
 ---
 

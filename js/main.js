@@ -1,24 +1,26 @@
-// Main Entry Point
 console.log('Portfolio Application Initialized');
 
-// Dynamic Skills Loader (if element exists)
 const skillsContainer = document.getElementById('skills-container');
 
 if (skillsContainer) {
-    const skills = [
-        { name: 'JavaScript', level: '90%', icon: 'bi-filetype-js' },
-        { name: 'Node.js', level: '85%', icon: 'bi-hexagon' },
-        { name: 'React', level: '80%', icon: 'bi-box' },
-        { name: 'Python', level: '75%', icon: 'bi-filetype-py' },
-        { name: 'SQL', level: '70%', icon: 'bi-database' }
-    ];
+  /* Constant data array for skill representation; icon classes map to Bootstrap Icons */
+  const skills = [
 
-    skills.forEach(skill => {
-        const col = document.createElement('div');
-        col.className = 'col-md-4 col-sm-6';
+    { name: 'JavaScript', level: '10%', icon: 'bi-filetype-js' },
+    { name: 'Node.js', level: '40%', icon: 'bi-hexagon' },
+    { name: 'React', level: '10%', icon: 'bi-box' },
+    { name: 'Python', level: '30%', icon: 'bi-filetype-py' },
+    { name: 'SQL', level: '20%', icon: 'bi-database' }
+  ];
 
-        col.innerHTML = `
-      <div class="card h-100 text-center p-4 border-0 shadow-sm">
+  skills.forEach(skill => {
+    const col = document.createElement('div');
+    col.className = 'col-md-4 col-sm-6';
+
+    col.innerHTML = `
+      <div class="card h-100 text-center p-4"> <!-- removed shadow-sm to make it simpler -->
+
+
         <div class="card-body">
           <h5 class="card-title">${skill.name}</h5>
           <div class="progress mt-3" style="height: 10px;">
@@ -31,6 +33,6 @@ if (skillsContainer) {
       </div>
     `;
 
-        skillsContainer.appendChild(col);
-    });
+    skillsContainer.appendChild(col);
+  });
 }

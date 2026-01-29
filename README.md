@@ -46,10 +46,4 @@ This project is a personal portfolio website built as part of the CS5610 Web Dev
   - *"Provide a high-quality system font stack that mimics serif elegance."*
 
 ## 🎥 Video Demonstration
-[Video Link Placeholder] - *Please insert the link to your narrated video here.*
-
-## 🛠️ Run Instructions
-1. **Clone the Project**: `git clone <repository_url>`
-2. **Launch**: Use VS Code's **Live Server** extension or run `python -m http.server 8000` in the directory.
-3. **Access**: Navigate to `http://localhost:8000`.
-
+[📄 View Video](https://youtu.be/9J4F_z5HI4Y)

@@ -1,53 +1,92 @@
 /* Main application stylesheet: Configured for a "student-work" aesthetic with manual overrides */
 body {
-    background-color: #fafafa;
-    color: #333;
-    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  font-family:
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
 }
-
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #000;
 }
 
-
 .navbar {
-    border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
 }
 
 .card {
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-    border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Project card image height */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Course card colors */
+.course-web {
+  color: blue;
+}
+
+.course-algo {
+  color: green;
+}
+
+.course-db {
+  color: darkcyan;
+}
+
+.course-oo {
+  color: #333;
+}
+
+/* Hobby icons */
+.hobby-icon {
+  font-size: 30px;
+}
+
+/* Navbar brand styling */
+.navbar-brand-custom {
+  font-weight: bold;
+  color: #0d6efd;
 }
 
 .list-group-item {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .cat-hero {
-    background-color: #ffe4e1;
-    padding: 60px;
+  background-color: #ffe4e1;
+  padding: 60px;
 }
 
 .cat-card {
-    border: 1px solid black;
-    padding: 15px;
+  border: 1px solid black;
+  padding: 15px;
 }
 
 /* Explicitly disabling common hover transformations to maintain the static student-style execution */
 .card,
 .btn {
-    transition: none;
-    /* Disables Bootstrap's default transitions if any */
+  transition: none;
+  /* Disables Bootstrap's default transitions if any */
 }
 
 .card:hover,
 .btn:hover {
-    transform: none;
-    box-shadow: none;
+  transform: none;
+  box-shadow: none;
 }

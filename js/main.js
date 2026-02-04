@@ -5,15 +5,14 @@ const skillsContainer = document.getElementById('skills-container');
 if (skillsContainer) {
   /* Constant data array for skill representation; icon classes map to Bootstrap Icons */
   const skills = [
-
     { name: 'JavaScript', level: '10%', icon: 'bi-filetype-js' },
     { name: 'Node.js', level: '40%', icon: 'bi-hexagon' },
     { name: 'React', level: '10%', icon: 'bi-box' },
     { name: 'Python', level: '30%', icon: 'bi-filetype-py' },
-    { name: 'SQL', level: '20%', icon: 'bi-database' }
+    { name: 'SQL', level: '20%', icon: 'bi-database' },
   ];
 
-  skills.forEach(skill => {
+  skills.forEach((skill) => {
     const col = document.createElement('div');
     col.className = 'col-md-4 col-sm-6';
 

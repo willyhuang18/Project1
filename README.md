@@ -4,10 +4,10 @@ This project is a personal portfolio website built as part of the CS5610 Web Dev
 
 [📄 View Design Document (PDF)](https://github.com/user-attachments/files/24842650/design.pdf)
 
-
 ---
 
 ## 🛠️ Technologies Used
+
 - **Modern HTML5 & CSS3**: Employs semantic markup and a custom design system focused on local maintenance (No external font/API dependencies).
 - **JavaScript (ES6 Modules)**: Utilizes a modular architecture for clean, maintainable logic across multiple pages.
 - **Bootstrap 5.3**: Implements a fully responsive, mobile-first grid system for universal accessibility.
@@ -15,6 +15,7 @@ This project is a personal portfolio website built as part of the CS5610 Web Dev
 - **Code Quality**: Formatted with Prettier and validated against strict ESLint rules (ES2021).
 
 ## 📸 Preview
+
 <img width="1635" height="992" alt="image" src="https://github.com/user-attachments/assets/df03f619-6990-4b19-a694-384e2557ec42" />
 
 ---
@@ -36,14 +37,16 @@ This project is a personal portfolio website built as part of the CS5610 Web Dev
 ---
 
 ## 🤖 GenAI Disclosure
+
 - **Models Used**: Gemini 2.0 Flash, Claude 3.5 Sonnet.
 - **Usage Description**:
   - Used AI to brainstorm the initial directory structure and structural HTML boilerplate.
   - Leveraged AI for WCAG accessibility audits and local system font stack optimization.
   - Generated the initial database of cat facts for the "Cat World" module.
 - **Prompts Examples**:
-  - *"Generate a standard folder structure for a modular P1 web project."*
-  - *"Provide a high-quality system font stack that mimics serif elegance."*
+  - _"Generate a standard folder structure for a modular P1 web project."_
+  - _"Provide a high-quality system font stack that mimics serif elegance."_
 
 ## 🎥 Video Demonstration
+
 [📄 View Video](https://youtu.be/9J4F_z5HI4Y)
